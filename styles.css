@@ -28,3 +28,15 @@ mark.blue {
     color:#0000ff;
     background: none;
 }
+mark.orange {
+    color:#ff4500;
+    background: none;
+}
+mark.yellow {
+    color:#ffff00;
+    background: none;
+}
+mark.red {
+    color:#ff0000;
+    background: none;
+}
