@@ -72,10 +72,17 @@ is the <em>n	name</em> that the programmer chooses. You can pretty much choose a
 		such as <code>public</code>, <code>class</code>, <code>static</code>, <code>void</code>, <code>int</code> …
 		
 		<p>Because a Java variable name can’t have spaces, a style called <em>camelCase</em> is usually used for variable names
-		with more than one word. <em>camelCase</em> capitalizes the first letter of each word except the first word
-Examples: firstName, numberOfDogs
- Java variable names are case-sensitive, so firstName is not the same as firstname or FirstName.
+		with more than one word. <em>camelCase</em> capitalizes the first letter of each word except the first word like
+		<code>firstName</code> or <code>numberOfDogs</code>. Java variable names are case-sensitive, so <code>firstName</code> is
+		not the same as <code>firstname</code> or <code>FirstName</code>.
 
+		<h2>Variable initializations</h2>
+		After a Java variable is declared, it needs to be <em>initialized</em>. Run the following program and you will get an 
+		error message.
+		<p><iframe src="https://trinket.io/embed/java/612c6bf560" width="100%" height="200" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+		<p>The English word <em>initial</em> means <em>first</em>. We initialize a variable by assigning (“setting it equal to”) its first value.
+		We can fix the error in the program by adding <code>num=3;</code> between lines 4 & 5. (Note it doesn't have to be <code>3</code>, 
+		we could use any integer between -2147483648 and 2147483647)
 
 
 </body>
